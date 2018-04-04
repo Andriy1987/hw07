@@ -1,0 +1,13 @@
+.calc-buttons button.active {
+    font-weight: bold;
+   
+    
+}
+.calc-buttons {
+    margin:auto;
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+}
+.viewer {
+  grid-column: 1 / 4;
+  }
